@@ -74,6 +74,58 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Add some spacing for the participants section */
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #eef2fa;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #3949ab;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding: 0;
+  list-style-type: none; /* hide bullets */
+}
+
+.participant-item {
+  font-size: 15px;
+  color: #222;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Small unregister/delete button */
+.unregister-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.unregister-btn:hover {
+  background-color: rgba(198, 40, 40, 0.08);
+}
+
+.no-participants {
+  background-color: #f9f9f9;
+  color: #888;
+  font-style: italic;
+  padding-left: 0;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
