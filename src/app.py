@@ -80,7 +80,8 @@ activities = {
 
 @app.get("/")
 def root():
-    return RedirectResponse(url="/static/index.html")
+    """Redirect root to static/index.html"""
+    return RedirectResponse(url="/static/index.html", status_code=307)
 
 
 @app.get("/activities")
